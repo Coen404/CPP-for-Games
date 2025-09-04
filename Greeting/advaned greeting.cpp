@@ -4,7 +4,7 @@
 
 #include "Config.hpp"
 
-int main()
+void Advanced()
 {
 	std::string name;
 	int age;
@@ -23,6 +23,18 @@ int main()
 		std::cin >> age;
 	}
 
-	std::cout << "Hello, " << name;
-	std::cout << ". You are " << age << " years old." << std::endl;
+	if (age < 25)
+	{
+		std::cout << "Hello " << name;
+		std::cout << ", you are only " << age << " years old" << std::endl;
+	}
+	else if (age >= 25 && age < 50)
+	{
+		std::cout << "Hello " << name;
+		std::cout << ", you are already " << age << " years old" << std::endl;
+	}
+	else
+	{
+		std::cout << "Hello " << name << ". You are very wise for your age." << std::endl;
+	}
 }
