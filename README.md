@@ -1,2 +1,2 @@
-# CppForGames
-Learning Cpp for game programming
+# CPP-for-Games
+Learning C++ for game programming
