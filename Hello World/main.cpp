@@ -4,5 +4,5 @@ int main()
 {
 	std::cout << "Hello, World!" << std::endl;
 
-	return 0; // No error occurred.
+	return 0;
 }
